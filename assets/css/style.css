@@ -1,0 +1,246 @@
+        body {
+            background-color: rgb(101, 107, 192);
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #header1 {
+            background-color: rgb(168, 52, 100);
+            border: 5px solid rgb(81, 18, 226);
+            font-size: xx-large;
+            text-align: center;
+        }
+
+        .zero {
+            border: 5px solid rgb(50, 202, 12);
+            padding: 8px;
+            padding-top: 15px;
+            margin: auto;
+            text-decoration: underline overline dotted rgb(32, 2, 2);
+        }
+
+        .navbar {
+            border-radius: 20px;
+            background-color: rgb(162, 223, 122);
+            height: 100px;
+            padding-top: 1px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav ul {
+            overflow: auto;
+        }
+
+        nav ul li {
+            list-style: none;
+            float: left;
+            margin-right: 50px;
+            margin-left: 30px;
+            padding: 15px;
+            font-size: larger;
+        }
+
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: bolder;
+            color: black;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active {
+            text-decoration: underline;
+            color: crimson;
+        }
+
+        nav .search {
+            float: right;
+            padding-right: 35px;
+            margin-top: 6px;
+        }
+
+        nav .search input {
+            border: 3px solid blueviolet;
+            border-radius: 20px;
+            padding: 10px 30px;
+            font-size: large;
+            cursor: pointer;
+        }
+
+        nav .search :hover {
+            background-color: rgb(163, 207, 209);
+        }
+
+        video {
+            background-color: rgb(89, 122, 153);
+            border-radius: 20px;
+            width: 1500px;
+            height: 500px;
+        }
+        .hr4 {
+            height: 5px;
+            background-color: black;
+        }
+        .container1 {
+            display: flex;
+        }
+        .image1 {
+            border: 3px solid rgb(12, 40, 202);
+            border-radius: 20px;
+            width:500px;
+            height: 595px;
+            margin-top: 8px;
+            margin-bottom: 2px;
+        }
+        #header2 {
+            color: rgb(145, 255, 0);
+            font-size: 34px;
+        }
+        .box1 {
+            background-color: rgb(47, 170, 119);
+            border: 3px solid rgb(12, 40, 202);
+            border-radius: 25px;
+            width: 580px;
+            height: 600px;
+            margin: 5px 10px 5px 10px;
+            font-size: large;
+            letter-spacing: 1px;
+            text-align: center;
+            color: rgb(148, 36, 8);
+            
+        }
+
+        .hr1 {
+            border: 2px solid black;
+        }
+
+        .pcolor2 {
+            color: rgb(132, 17, 199);
+            white-space: nowrap;
+            font-size: larger;
+        }
+
+        #para1 {
+            border: 3px solid rgb(218, 89, 15);
+            background-color: rgb(102, 132, 161);
+            margin-top: 15px;
+            margin-bottom: 10px;
+            padding: 25px;
+            padding-top: 1px;
+            color: rgb(56, 6, 6);
+            text-indent: 25px;
+            text-align: center;
+            letter-spacing: 1px;
+            font-size: large;
+        }
+
+        #header3 {
+            color: rgb(3, 10, 1);
+            background-color: rgba(255, 255, 255, 0.87);
+            border-radius: 15px;
+            margin: 15px;
+            padding: 25px;
+            text-align: center;
+            display: inline-block;
+            font-size: 40px;
+            font-weight: bolder;
+        }
+
+        .container2 {
+            border: 2px solid rgb(53, 42, 117);
+            background-color: rgb(147, 167, 134);
+            width: fit-content;
+            overflow: auto;
+        }
+
+        div.gallery {
+            display: inline-table;
+            margin-left: 58px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border: 3px solid rgb(105, 25, 180);
+            width: 400px;
+            padding: 5px;
+        }
+
+        .image2 {
+            width: 400px;
+            height: 300px;
+        }
+
+        div.gallery:hover {
+            background-color: rgb(177, 219, 130);
+        }
+
+        div.descr {
+            font-size: 20px;
+            padding: 15px;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        .dlink {
+            text-decoration: none;
+            color: rgb(96, 16, 172);
+        }
+
+        #h3 {
+            background-color: rgb(118, 231, 83);
+            color: rgb(129, 81, 8);
+            text-align: center;
+            font-size: 35px;
+            font-weight: bolder;
+            margin-top: 10px;
+            padding: 5px;
+            border-radius: 10px;
+
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .HowToReach1 {
+            display: inline-table;
+            background-color: cornsilk;
+            border-radius: 20px;
+            width: 350px;
+            height: 350px;
+            margin-left: 80px;
+            margin-right: 50px;
+
+        }
+
+        .container3 h3 {
+            text-align: center;
+            font-size: 20px;
+
+        }
+
+        .para2 {
+            text-align: center;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: 25px;
+            margin-right: 25px;
+
+        }
+
+        #footer1 {
+            width: 100%;
+            height: 40px;
+            background-color: rgb(171, 182, 171);
+            margin-top: 15px;
+            margin-bottom: -5px;
+        }
+
+        footer {
+            color: rgb(76, 17, 184);
+            text-align: center;
+            font-size: larger;
+            font-weight: bolder;
+            padding-top: 10px;
+        }

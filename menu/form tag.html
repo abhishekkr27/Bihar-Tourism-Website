@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+</head>
+<style>
+    body {
+        background-color: rgb(25, 161, 182);
+    }
+    .form {
+        border: 2px solid yellowgreen;
+        background-color: tomato;
+        border-radius: 20px;
+        width: fit-content;
+        margin: auto;
+        padding: 25px;
+        color: rgb(20, 1, 16);
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .form input {
+        padding: 5px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: bolder;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: underline;
+    }
+</style>
+
+<body>
+    <h1>Apply For Work</h1>
+    <div class="form">
+        <form action="backend.php">
+            <label for="name"> Name: </label>
+            <div>
+                <input type="text" name="myName" id="name">
+            </div><br>
+            <label for="Work"> Work:</label>
+            <div>
+                <input type="text" name="myWork" id="role">
+            </div><br>
+            <label for="email">Email: </label>
+            <div>
+                <input type="email" name="myEmail" id="email">
+            </div><br>
+            <div>
+                Date: <input type="date" name="myDate">
+            </div><br>
+            <!-- <label for="bonus" Bonus:></label>
+            <div>
+                Bonus: <input type="number" name="myBonus" id="bonus">
+            </div><br> -->
+            <div>
+                Gender: Male <input type="radio" name="myGender">
+                Female <input type="radio" name="myGender">
+                Other <input type="radio" name="myGender">
+            </div><br>
+            <label for="checkbox"> Are You Elegible?:</label>
+            <div>
+                <input type="checkbox" name="myElegiblity" id="checkbox">
+            </div><br>
+            <div>
+                <label for="country">Country:</label>
+                <select name="mycountry" id="country">
+                    <option value="ind">India</option>
+                    <option value="ame">America</option>
+                    <option value="nep">Nepal</option>
+                </select>
+            </div><br>
+            <label for="text">Right about yourself:</label>
+            <div>
+                <br> <textarea name="Mytext" cols="30" rows="10" id="text"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Sumbit Now">
+                <input type="reset" value="Reset Now">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
